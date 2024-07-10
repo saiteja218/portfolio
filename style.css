@@ -128,8 +128,12 @@ html {
 
 }
 
-.main button:hover {
-    transition: transform .3s;
+.btns
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+
 }
 
 
